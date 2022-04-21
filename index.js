@@ -1,6 +1,7 @@
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
+const morgan = require('morgan');
 const dotenv = require('dotenv');
 const app = express();
 
@@ -9,6 +10,7 @@ const api = require('./routes/api');
 app.use(bodyParser.json());
 dotenv.config();
 app.use(cors());
+app.use(morgan('tiny'));
 
 
 app.use((req, res, next) => {
