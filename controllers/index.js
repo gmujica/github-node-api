@@ -1,6 +1,6 @@
 const https = require('https');
 
-const GITHUB_TOKEN = '';
+const GITHUB_TOKEN = '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';
 
 const getUserInfo = async (req, res) => {
     const user = req.params.user;
