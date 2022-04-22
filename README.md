@@ -28,7 +28,7 @@ Node Express Rest API developed to obtain user information, repositories and com
 
 You must have the requirements previously installed
 
-In the terminal run the command `npm install` or` yarn` to install the necessary packages, then run the command `npm start` or` yarn start`.
+In the terminal run the command `npm install` or` yarn` to install the necessary packages, then run the command `npm run dev`
 
 The service will be lifted in http://localhost:5000
 
